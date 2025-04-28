@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { projects } from '../data/projects';
 import { ExternalLink, Github } from 'lucide-react';
+import Image from 'next/image';
 
 const Projects: React.FC = () => {
   const [activeFilter, setActiveFilter] = useState<string>('all');
@@ -56,7 +57,7 @@ const Projects: React.FC = () => {
               className={`bg-white dark:bg-gray-900 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 flex flex-col animate-scaleIn animate-delay-${(index + 1) * 100}`}
             >
               <div className="relative h-48 overflow-hidden group">
-                <img 
+                <Image height={48} width={48}
                   src={project.image} 
                   alt={project.title}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"

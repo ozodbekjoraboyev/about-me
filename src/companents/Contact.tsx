@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Mail, Phone, MapPin, Github, Linkedin, Twitter } from "lucide-react";
+import { Mail, Phone, MapPin, Github, Linkedin, } from "lucide-react";
 import Image from "next/image";
 import telegram from "../../public/telegram.svg";
 import axios from "axios";

@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
           
           <div className="text-center md:text-right">
             <p className="text-gray-600 dark:text-gray-400 flex items-center justify-center md:justify-end">
-              &copy; {currentYear} Ozodbek Jo'raboyev. Made with 
+              &copy; {currentYear} Ozodbek Jo{"'"}raboyev. Made with 
               <Heart size={16} className="text-red-500 mx-1" />
               using React & TypeScript
             </p>
