@@ -22,21 +22,21 @@ import {
     {
       name: 'State Management',
       icon: Store,
-      items: ['Redux Toolkit', 'Zustand', 'Context API', 'React Query']
+      items: ['Redux Toolkit', 'Zustand']
     },
     {
       name: 'UI Component Libraries',
       icon: Laptop,
-      items: ['Ant Design', 'Shadcn/ui', 'Material UI', 'Chakra UI']
+      items: ['Ant Design', 'Shadcn/ui']
     },
     {
       name: 'Build Tools',
       icon: Cloud,
-      items: ['Vite.js', 'Webpack', 'npm', 'Yarn', 'ESLint']
+      items: ['Vite.js', 'npm', ]
     },
     {
       name: 'Other Skills',
       icon: Database,
-      items: ['Git', 'RESTful APIs', 'GraphQL', 'Firebase', 'Responsive Design']
+      items: ['Git',  'Responsive Design']
     }
   ];
