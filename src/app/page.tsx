@@ -7,6 +7,7 @@ import Hero from "@/companents/Hero";
 import Projects from "@/companents/Projects";
 import Scilse from "@/companents/Scillse";
 import React, { useEffect, useState } from "react";
+import { Toaster } from "sonner";
 
 function Home() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -45,6 +46,7 @@ function Home() {
       <Projects />
       <Contact />
       <Footer />
+      <Toaster richColors position="top-center" />
     </div>
   );
 }
