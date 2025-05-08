@@ -106,6 +106,7 @@ const Header: React.FC<HeaderProps> = ({ isDarkMode, toggleDarkMode }) => {
           </nav>
         </div>
       )}
+      
     </header>
   );
 };
