@@ -158,6 +158,8 @@ const Contact: React.FC = () => {
                   className="p-2 bg-gray-100 dark:bg-gray-800 rounded-full hover:bg-blue-100 dark:hover:bg-blue-900/30 transition-all transform hover:scale-110"
                 >
                   <Image width={20} height={20} src={telegram} alt="telegram" />
+                  
+
                 </a>
               </div>
             </div>

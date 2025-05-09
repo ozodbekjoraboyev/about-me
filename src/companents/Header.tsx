@@ -98,15 +98,14 @@ const Header: React.FC<HeaderProps> = ({ isDarkMode, toggleDarkMode }) => {
               <button
                 key={item}
                 onClick={() => scrollToSection(item)}
-                className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 capitalize py-2 transition-colors"
+                className="text-gray-700  dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 capitalize py-2 transition-colors"
               >
-                {item}
+                {/* {item} */}
               </button>
             ))}
           </nav>
         </div>
       )}
-      
     </header>
   );
 };
